@@ -160,39 +160,35 @@
     background: #000;
     content: "";
     position: absolute;
-    bottom: -108%;
+    bottom: -102%;
     left: 48.6%;
 }
-
 .sec3-img-warp{
     width: 100%;
-    padding: 5% 10% 0;
+    margin: 5% 18.9%;
 }
-.sec3-img-warp div{
-    width: 20%;
+.img-box{
+    width: 288px;
+    height: 460px;
+    background: #000;
+    border-radius: 10px;
     float: left;
-
+    margin-right: 10px;
+    opacity: 0.5;
+    overflow: hidden;
 }
-.img-1st{
-width: 95%;
-margin: 0 1.1%;
-opacity: 1;
-}
-.img-2st{
-    width: 95%;
-    margin: 0 1.1%;
-    }
-    .img-3st{
-        width: 95%;
-        margin: 0 1.1%;
-        }
-        .img-4st{
-            width: 95%;
-            margin: 0 1.1%;
-            }
+.img-box>img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease;
+  }
+  
+  .img-box>img:hover {
+    transform: scale(1.05);
+  }
 
 
-/* section3 */
+/* section3 End */
 #section4{
     width: 100%;
     background-image: url(../img/teambg.png);
