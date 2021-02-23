@@ -170,12 +170,19 @@
 .img-box{
     width: 288px;
     height: 460px;
-    background: #000;
     border-radius: 10px;
     float: left;
     margin-right: 10px;
     opacity: 0.5;
     overflow: hidden;
+}
+.c-bg-box{
+    width: 288px;
+    height: 460px;
+    border-radius: 10px;
+    background: #000;
+    float: left;
+    margin-right: 10px;
 }
 .img-box>img {
     width: 100%;
@@ -186,7 +193,21 @@
   .img-box>img:hover {
     transform: scale(1.05);
   }
-
+.p-title{
+    position: absolute;
+    left: 20.9%;
+    bottom: -141%;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Noto Sans KR', sans-serif;
+    z-index: 1;
+    color: #fff;
+}
+.addbtn-wh{
+    width: 10%;
+    position: absolute;
+    z-index: 1;
+}
 
 /* section3 End */
 #section4{
@@ -241,3 +262,43 @@
 }
 
 
+
+
+
+@media (max-width:747px){
+    .navi{
+        position: fixed;
+        top: 1%;
+        left: 2%;
+         }
+         .navi li{
+            transform: rotate(0deg);
+            margin: 12px;
+            float: left;
+                }
+         .navi li a{
+        color: white;
+        font-size: 0.9rem;
+        font-family: 'Noto Sans KR', sans-serif;
+       }
+       
+
+
+
+
+
+
+
+
+
+
+       /* sec2 End */
+       .page3-tit::before {
+        width: 53px;
+        height: 4px;
+        background: #000;
+        content: "";
+        position: absolute;
+        bottom: -160%;
+        left: 44.1%;
+}
